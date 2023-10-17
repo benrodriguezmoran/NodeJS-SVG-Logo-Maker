@@ -1,9 +1,11 @@
 const inquirer = require('inquire');
 const fs = require('fs');
-const generateLogo = require('./lib/generateLogo')
+const generateLogo = require('./lib/generateLogo');
 inquirer
     .prompt(questions)
     .then((answers) => {
-        {}
-        const logo = 
+        ({shape, color, text} = answers);
+        const logo = generateLogo
+        fs.writeFile('./output/logo.svg')
     })
+    
