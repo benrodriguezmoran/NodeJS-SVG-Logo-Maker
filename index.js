@@ -1,6 +1,6 @@
 const inquirer = require('inquire');
 const fs = require('fs');
-const generateLogo = require('./lib/generateLogo');
+const generateLogo = require('./lib/GenerateLogo');
 inquirer
     .prompt(questions)
     .then((answers) => {
