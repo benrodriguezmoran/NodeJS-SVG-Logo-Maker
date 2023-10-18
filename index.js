@@ -1,6 +1,6 @@
-const inquirer = require('inquire');
+const inquirer = require('inquirer');
 const fs = require('fs');
-const generateLogo = require('./lib/GenerateLogo');
+const Logo = require('./lib/GenerateLogo');
 
 const questions = [
     {
@@ -16,19 +16,27 @@ const questions = [
         choices: ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
     },
     {
+        type: 'list',
+        name: 'textColor',
+        message: 'Choose a text color:',
+        choices: ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
+    },
+    {
         type: 'maxlength-input',
         message: 'Please enter three characters.',
         name: 'text',
         maxLength: 3,
     },
-]
+](
 function init(){
     inquirer
         .prompt(questions)
         .then((answers) => {
-            ({shape, color, text} = answers);
-            const logo = generateLogo;
-            fs.writeFile('./output/logo.svg');
+            ({shape, shapeColor, textColor, logoText} = answers);
+            const logo = new Logo();
+            const SVG = logo.generate(shape, shapeColor, textColor, logoText)
+            console.log(SVG);
+
         })
 }
 init();
