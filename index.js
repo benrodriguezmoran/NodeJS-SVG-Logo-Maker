@@ -13,13 +13,13 @@ const questions = [
         type: 'list',
         name: 'shapeColor',
         message: 'Choose a background color:',
-        choices: ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
+        choices: ['White', 'Black', 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
     },
     {
         type: 'list',
         name: 'textColor',
         message: 'Choose a text color:',
-        choices: ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
+        choices: ['White', 'Black', 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
     },
     {
         type: 'maxlength-input',
