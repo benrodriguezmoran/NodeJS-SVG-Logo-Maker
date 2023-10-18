@@ -3,7 +3,7 @@ Generates the user a simplistic vector logo from 2 colors, 3 letters, and a choi
 ![screenshot](/output/logo.svg)
 ## Table Of Contents
 - [Installation](#installation)
-
+- [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 - [Questions](#questions)
@@ -13,6 +13,9 @@ Generates the user a simplistic vector logo from 2 colors, 3 letters, and a choi
 
 ## Installation 
 Install inquirer into the project folder with `npm i inquirer@8.2.4 and then run with `node index.js`
+
+## Usage
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pHzv2oAnybc?si=RmzxAtW-Mq-954FK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Credits 
 MSU Fullstack Bootcamp course material
