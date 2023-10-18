@@ -18,7 +18,7 @@ Install inquirer into the project folder with `npm i inquirer@8.2.4 and then run
 MSU Fullstack Bootcamp course material
 ## License 
 
-    ![badge](https://img.shields.io/badge/license-mit-blue.svg) [MIT Licensing](https://choosealicense.com/licenses/mit/)
+![badge](https://img.shields.io/badge/license-mit-blue.svg) [MIT Licensing](https://choosealicense.com/licenses/mit/)
 
 ## Questions
 - Github [benrodriguezmoran](https://github.com/benrodriguezmoran) 
