@@ -1,6 +1,6 @@
 # NodeJS-SVG-Logo-Maker
 Generates the user a simplistic vector logo from 2 colors, 3 letters, and a choice of background shape.
-![screenshot](/output/logo.svg.png)
+![screenshot](/output/logo.svg)
 ## Table Of Contents
 - [Installation](#installation)
 
