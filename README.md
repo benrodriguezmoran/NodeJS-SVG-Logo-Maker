@@ -15,8 +15,8 @@ Generates the user a simplistic vector logo from 2 colors, 3 letters, and a choi
 Install inquirer into the project folder with `npm i inquirer@8.2.4 and then run with `node index.js`
 
 ## Usage
-### Youtube
-[![Final video of fixing issues in your code in VS Code](https://img.youtube.com/vi/pHzv2oAnybc/maxresdefault.jpg)](https://www.youtube.com/watch?v=pHzv2oAnybc)
+### Youtube demonstration:
+[![Youtube link](https://img.youtube.com/vi/pHzv2oAnybc/maxresdefault.jpg)](https://www.youtube.com/watch?v=pHzv2oAnybc)
 
 ## Credits 
 MSU Fullstack Bootcamp course material
