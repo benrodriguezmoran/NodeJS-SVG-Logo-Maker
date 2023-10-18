@@ -2,5 +2,32 @@
   "dependencies": {
     "inquirer": "^8.2.4",
     "jest": "^29.7.0"
-  }
+  },
+  "name": "nodejs-svg-logo-maker",
+  "description": "Makes a simple SVG logo given 3 letters, two colors and a shape selection.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benrodriguezmoran/NodeJS-SVG-Logo-Maker.git"
+  },
+  "keywords": [
+    "Logo",
+    "SVG",
+    "nodeJS"
+  ],
+  "author": "Ben Rodriguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benrodriguezmoran/NodeJS-SVG-Logo-Maker/issues"
+  },
+  "homepage": "https://github.com/benrodriguezmoran/NodeJS-SVG-Logo-Maker#readme"
 }
