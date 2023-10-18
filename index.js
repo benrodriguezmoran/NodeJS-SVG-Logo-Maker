@@ -35,11 +35,11 @@ function init(){
             ({shape, shapeColor, textColor, logoText} = answers);
             const logo = new Logo();
             const SVG = logo.generate(shape, shapeColor, textColor, logoText)
-            console.log(SVG);
             fs.writeFile('./output/logo.svg', SVG, error =>{
                 if (error){
                     throw error;
                 }
+                else {console.log('Written to /output/logo.svg!')}
             });
         })
 }
