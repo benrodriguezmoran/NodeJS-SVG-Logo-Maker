@@ -11,7 +11,7 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'color',
+        name: 'shapeColor',
         message: 'Choose a background color:',
         choices: ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
     },
@@ -24,10 +24,10 @@ const questions = [
     {
         type: 'maxlength-input',
         message: 'Please enter three characters.',
-        name: 'text',
+        name: 'logoText',
         maxLength: 3,
     },
-](
+]
 function init(){
     inquirer
         .prompt(questions)
@@ -36,7 +36,11 @@ function init(){
             const logo = new Logo();
             const SVG = logo.generate(shape, shapeColor, textColor, logoText)
             console.log(SVG);
-
+            fs.writeFile('./output/logo.svg', SVG, error =>{
+                if (error){
+                    throw error;
+                }
+            });
         })
 }
 init();
