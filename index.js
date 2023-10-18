@@ -22,11 +22,13 @@ const questions = [
         maxLength: 3,
     },
 ]
-inquirer
-    .prompt(questions)
-    .then((answers) => {
-        ({shape, color, text} = answers);
-        const logo = generateLogo;
-        fs.writeFile('./output/logo.svg');
-    })
-    
+function init(){
+    inquirer
+        .prompt(questions)
+        .then((answers) => {
+            ({shape, color, text} = answers);
+            const logo = generateLogo;
+            fs.writeFile('./output/logo.svg');
+        })
+}
+init();
