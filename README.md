@@ -16,7 +16,7 @@ Install inquirer into the project folder with `npm i inquirer@8.2.4 and then run
 
 ## Usage
 ### Youtube demonstration:
-[![Youtube link](https://img.youtube.com/vi/pHzv2oAnybc/maxresdefault.jpg)](https://www.youtube.com/watch?v=pHzv2oAnybc)
+[Youtube link](https://www.youtube.com/watch?v=pHzv2oAnybc)
 
 ## Credits 
 MSU Fullstack Bootcamp course material
